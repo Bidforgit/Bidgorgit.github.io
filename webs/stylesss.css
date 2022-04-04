@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.td4{
+  background-color: lightblue;
+}
+
+.table {
+    margin:auto auto;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 1000px;
+    height: 500px;
+    
+    border-color: rgb(97, 97, 97);
+    
+    padding: 1px;   
+}
+
+
+
+
+nav {
+    margin: 20px auto 0;
+    position: relative;
+    width: 490px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+  }
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  a:nth-child(1) {
+    width: 100px;
+  }
+  a:nth-child(2) {
+    width: 170px;
+  }
+  a:nth-child(3) {
+    width: 100px;
+  }
+  a:nth-child(4) {
+    width: 120px;
+  }
+ 
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 110px;
+    left: 0;
+    background-color: #1abc9c;
+  }
+  nav .start-about, a:nth-child(2):hover~.animation {
+    width: 160px;
+    left: 110px;
+    background-color: #e74c3c;
+  }
+  nav .start-blog, a:nth-child(3):hover~.animation {
+    width: 110px;
+    left: 250px;
+    background-color: #3498db;
+  }
+  nav .start-blog, a:nth-child(4):hover~.animation {
+    width: 120px;
+    left: 370px;
+    background-color: #e3f11a;
+  }
+ 
+  
+  body {
+    font-size: 12px;
+    font-family: sans-serif;
+    
+    background-image: url("BACKGROUND.jpg");
+    
+    
+  }
+  h1 {
+    text-align: center;
+    margin: 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #ecda10;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Cherry Swash', cursive;
+  }
+  h2{
+    text-align: left;
+    font-size: 30px;
+    padding-left : 220px;
+  }
+  
+  img {
+    height: 300px;
+    width: 250px;
+    object-fit: contain;
+  }
+
+
+  p{
+    color: #0b0d0e;
+     font-family: 'Helvetica Neue', sans-serif; 
+     font-size: 20px; 
+     line-height: 24px; 
+     padding-left : 220px;
+     margin-left : 290px;
+     text-justify: inter-word;  
+     margin: auto;
+}
+
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 3px;
+}
+ 
+label {
+  font-size: 10pt;
+  color: #555;
+}
+ 
+input[type="password"],
+input[type="text"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+ 
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+}
